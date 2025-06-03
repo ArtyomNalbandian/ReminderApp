@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1078095587167",
+    "project_id": "backend-project-4d3db",
+    "storage_bucket": "backend-project-4d3db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078095587167:android:5d4b5fbc61a1c5509578ea",
+        "android_client_info": {
+          "package_name": "com.example.reminder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8q9yEeO0IEYyEKEKIasNQWO0-w-n7eEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
