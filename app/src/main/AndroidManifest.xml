@@ -36,7 +36,7 @@
 <!--            </intent-filter>-->
 <!--        </service>-->
         <service
-            android:name=".update.service.ReminderFirebaseMessagingService"
+            android:name=".service.ReminderFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

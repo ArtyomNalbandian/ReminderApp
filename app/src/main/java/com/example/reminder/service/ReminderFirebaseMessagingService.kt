@@ -1,4 +1,4 @@
-package com.example.reminder.update.service
+package com.example.reminder.service
 
 
 import android.app.NotificationChannel
@@ -11,7 +11,7 @@ import android.util.Log
 import androidx.core.app.NotificationCompat
 import com.example.reminder.MainActivity
 import com.example.reminder.R
-import com.example.reminder.update.data.repository.FcmTokenRepository
+import com.example.reminder.data.repository.FcmTokenRepository
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 import dagger.hilt.android.AndroidEntryPoint

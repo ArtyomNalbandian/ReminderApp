@@ -1,7 +1,7 @@
-package com.example.reminder.update.data.api
+package com.example.reminder.data.api
 
-import com.example.reminder.update.data.model.FcmToken
-import com.example.reminder.update.data.model.Reminder
+import com.example.reminder.data.model.FcmToken
+import com.example.reminder.data.model.Reminder
 import retrofit2.http.Body
 import retrofit2.http.DELETE
 import retrofit2.http.GET

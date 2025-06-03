@@ -1,4 +1,4 @@
-package com.example.reminder.update.data.model
+package com.example.reminder.data.model
 
 data class FcmToken(
     val token: String,

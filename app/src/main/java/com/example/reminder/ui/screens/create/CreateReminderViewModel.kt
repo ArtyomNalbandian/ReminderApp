@@ -1,12 +1,12 @@
-package com.example.reminder.update.ui.screens.create
+package com.example.reminder.ui.screens.create
 
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.reminder.update.data.model.NotificationType
-import com.example.reminder.update.data.model.Reminder
-import com.example.reminder.update.data.repository.ReminderRepository
+import com.example.reminder.data.model.NotificationType
+import com.example.reminder.data.model.Reminder
+import com.example.reminder.data.repository.ReminderRepository
 import com.google.firebase.messaging.FirebaseMessaging
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

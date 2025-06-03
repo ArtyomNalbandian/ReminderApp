@@ -19,8 +19,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.reminder.ui.theme.ReminderTheme
-import com.example.reminder.update.ui.screens.create.CreateReminderScreen
-import com.example.reminder.update.ui.screens.home.HomeScreen
+import com.example.reminder.ui.screens.create.CreateReminderScreen
+import com.example.reminder.ui.screens.home.HomeScreen
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.messaging.FirebaseMessaging
 import dagger.hilt.android.AndroidEntryPoint

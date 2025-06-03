@@ -1,10 +1,10 @@
-package com.example.reminder.update.ui.screens.home
+package com.example.reminder.ui.screens.home
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.reminder.update.data.model.Reminder
-import com.example.reminder.update.data.repository.ReminderRepository
+import com.example.reminder.data.model.Reminder
+import com.example.reminder.data.repository.ReminderRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
@@ -36,7 +36,7 @@ class HomeViewModel @Inject constructor(
         
         val filteredReminders = when (filter) {
             // Активные: статус pending и время уведомления в будущем
-            ReminderFilter.ACTIVE -> reminders.filter { 
+            ReminderFilter.ACTIVE -> reminders.filter {
                 it.status == "pending" && it.notificationTime.isAfter(now)
             }
             // История: статус completed/sent или (pending и время уведомления в прошлом)
@@ -46,7 +46,7 @@ class HomeViewModel @Inject constructor(
                 (it.status == "pending" && it.notificationTime.isBefore(now))
             }
             // Корзина: статус cancelled
-            ReminderFilter.TRASH -> reminders.filter { 
+            ReminderFilter.TRASH -> reminders.filter {
                 it.status == "cancelled"
             }
         }

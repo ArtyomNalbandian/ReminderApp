@@ -1,4 +1,4 @@
-package com.example.reminder.update.ui.screens.home
+package com.example.reminder.ui.screens.home
 
 
 import androidx.compose.foundation.clickable
@@ -18,7 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.example.reminder.update.data.model.Reminder
+import com.example.reminder.data.model.Reminder
 import java.time.format.DateTimeFormatter
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

@@ -1,9 +1,9 @@
-package com.example.reminder.update.di
+package com.example.reminder.di
 
 
 import android.util.Log
-import com.example.reminder.update.data.api.ReminderApi
-import com.example.reminder.update.data.model.LocalDateTimeAdapter
+import com.example.reminder.data.api.ReminderApi
+import com.example.reminder.data.model.LocalDateTimeAdapter
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import dagger.Module

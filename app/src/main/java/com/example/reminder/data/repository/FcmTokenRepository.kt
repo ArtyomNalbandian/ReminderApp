@@ -1,8 +1,8 @@
-package com.example.reminder.update.data.repository
+package com.example.reminder.data.repository
 
 import android.util.Log
-import com.example.reminder.update.data.api.ReminderApi
-import com.example.reminder.update.data.model.FcmToken
+import com.example.reminder.data.api.ReminderApi
+import com.example.reminder.data.model.FcmToken
 import javax.inject.Inject
 import javax.inject.Singleton
 

@@ -1,4 +1,4 @@
-package com.example.reminder.update.data.model
+package com.example.reminder.data.model
 
 import android.util.Log
 import com.squareup.moshi.FromJson

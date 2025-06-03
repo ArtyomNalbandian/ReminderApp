@@ -1,4 +1,4 @@
-package com.example.reminder.update.ui.screens.create
+package com.example.reminder.ui.screens.create
 
 
 import androidx.compose.foundation.layout.*
@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.example.reminder.update.data.model.NotificationType
+import com.example.reminder.data.model.NotificationType
 import com.maxkeppeker.sheets.core.models.base.UseCaseState
 import com.maxkeppeker.sheets.core.models.base.rememberUseCaseState
 import com.maxkeppeler.sheets.calendar.CalendarDialog

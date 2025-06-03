@@ -1,4 +1,4 @@
-package com.example.reminder.update.di
+package com.example.reminder.di
 
 import android.app.NotificationManager
 import android.content.Context
